@@ -1,0 +1,14 @@
+{
+  "database": {
+    "url": "jdbc:mysql://localhost:3306/company_db",
+    "username": "root",
+    "password": "password",
+    "driverClassName": "com.mysql.cj.jdbc.Driver"
+  },
+  "crawler": {
+    "schemaName": "company_db",
+    "modelPackage": "com.vistora.models",
+    "generateLombokAnnotations": true,
+    "generateJpaAnnotations": true
+  }
+}
